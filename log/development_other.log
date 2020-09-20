@@ -2425,3 +2425,87 @@ D, [2020-09-20T17:11:13.481476 #14641] DEBUG -- : [d] view: reptile_list
 D, [2020-09-20T17:11:13.482917 #14641] DEBUG -- : [d] view: reptile_list @reptile_type=#<ActiveRecord::Relation [#<Reptile id: 1, images: nil, reptile_img1: nil, reptile_img2: nil, reptile_img3: nil, type1: "ヘビ", type2: "ニシキヘビ", type_name: "ボールパイソン", morph: "", sex: "", age: "", size: "", weight: "", description: "", price: nil, sales_status: "", arrival_day: nil, user_id: 1, shop_name: "はちゅるいショップ", created_at: "2020-09-20 04:53:51", updated_at: "2020-09-20 04:53:51">]>
 D, [2020-09-20T17:11:13.485982 #14641] DEBUG -- : [d] view: reptile_list reptile=#<Reptile id: 1, images: nil, reptile_img1: nil, reptile_img2: nil, reptile_img3: nil, type1: "ヘビ", type2: "ニシキヘビ", type_name: "ボールパイソン", morph: "", sex: "", age: "", size: "", weight: "", description: "", price: nil, sales_status: "", arrival_day: nil, user_id: 1, shop_name: "はちゅるいショップ", created_at: "2020-09-20 04:53:51", updated_at: "2020-09-20 04:53:51">
 D, [2020-09-20T18:30:10.943097 #38045] DEBUG -- : [d] view: StaticPages#top
+D, [2020-09-21T00:12:51.621319 #41092] DEBUG -- : [d] view: StaticPages#top
+D, [2020-09-21T00:13:11.404788 #41092] DEBUG -- : [d] view: 新規作成
+D, [2020-09-21T00:13:11.409370 #41092] DEBUG -- : [d] error_messages.html.erb
+D, [2020-09-21T00:13:11.433943 #41092] DEBUG -- : [d] Registrations_Ctrl: ac: new
+D, [2020-09-21T00:13:20.042833 #41092] DEBUG -- : [d] OmniauthCallbacks_Ctrl: ac: google_oauth2
+D, [2020-09-21T00:13:20.042912 #41092] DEBUG -- : [d] OmniauthCallbacks_Ctrl: ac: callback_from ： provider = google_oauth2
+D, [2020-09-21T00:13:20.042953 #41092] DEBUG -- : [d] user.rb
+D, [2020-09-21T00:13:20.319345 #41092] DEBUG -- : @user = #<User id: 2, email: "r2405.exe@gmail.com", name: "exe 2405", image: "https://lh3.googleusercontent.com/a-/AOh14GhQoJRZi...", password: nil, uid: "109946844009221672863", token: "ya29.a0AfH6SMCnXUEjRNgWDROvGo0oHsRkY9JxaB_nFGGdhvM...", provider: "google_oauth2", admin: false, shop_name: nil, shop_images: nil, shop_img1: nil, shop_img2: nil, shop_img3: nil, shop_img4: nil, prefectures: nil, address: nil, search_map: 3, howto_access: nil, tel: nil, business_hours: nil, holiday: nil, url: nil, handling_animals: nil, handling_feeds: nil, handling_goods: nil, feature: nil, map_info: nil, twitter: nil, facebook: nil, instagram: nil, created_at: "2020-09-20 15:13:20", updated_at: "2020-09-20 15:13:20">
+D, [2020-09-21T00:13:20.319423 #41092] DEBUG -- : [d] OmniauthCallbacks_Ctrl: ac: callback_from：if ok (@user.persisted?)
+D, [2020-09-21T00:13:20.815858 #41092] DEBUG -- : [d] Application_Ctrl: ac: after_sign_in_path_for resource = #<User id: 2, email: "r2405.exe@gmail.com", name: "exe 2405", image: "https://lh3.googleusercontent.com/a-/AOh14GhQoJRZi...", password: nil, uid: "109946844009221672863", token: "ya29.a0AfH6SMCnXUEjRNgWDROvGo0oHsRkY9JxaB_nFGGdhvM...", provider: "google_oauth2", admin: false, shop_name: nil, shop_images: nil, shop_img1: nil, shop_img2: nil, shop_img3: nil, shop_img4: nil, prefectures: nil, address: nil, search_map: 3, howto_access: nil, tel: nil, business_hours: nil, holiday: nil, url: nil, handling_animals: nil, handling_feeds: nil, handling_goods: nil, feature: nil, map_info: nil, twitter: nil, facebook: nil, instagram: nil, created_at: "2020-09-20 15:13:20", updated_at: "2020-09-20 15:13:20">
+D, [2020-09-21T00:13:20.815905 #41092] DEBUG -- : [d] Application_Ctrl: ac: after_sign_in_path_for resource.id = 2
+D, [2020-09-21T00:13:20.831154 #41092] DEBUG -- : [d] Registrations_Ctrl: ac: edit @edit_mode=info
+D, [2020-09-21T00:13:20.836279 #41092] DEBUG -- : [d] view: ユーザー情報の変更 id=2
+D, [2020-09-21T00:13:20.836686 #41092] DEBUG -- : [d] error_messages.html.erb
+D, [2020-09-21T00:13:20.864659 #41092] DEBUG -- : [d] flash_messages flash[:success]
+D, [2020-09-21T00:13:20.866346 #41092] DEBUG -- : [d] Registrations_Ctrl: ac: edit test
+D, [2020-09-21T00:13:38.415265 #41092] DEBUG -- : [d] Registrations_Ctrl: ac: update id=2
+D, [2020-09-21T00:13:38.415947 #41092] DEBUG -- : [d] Registrations_Ctrl: ac: update search_map=
+D, [2020-09-21T00:13:38.418669 #41092] DEBUG -- : [d] Registrations_Ctrl: ac: update_resource (パスワードの確認を無効)
+D, [2020-09-21T00:13:38.419283 #41092] DEBUG -- : [d] Registrations_Ctrl: ac: update_resourc resource=#<User id: 2, email: "r2405.exe@gmail.com", name: "exe 2405", image: "https://lh3.googleusercontent.com/a-/AOh14GhQoJRZi...", password: nil, uid: "109946844009221672863", token: "ya29.a0AfH6SMCnXUEjRNgWDROvGo0oHsRkY9JxaB_nFGGdhvM...", provider: "google_oauth2", admin: false, shop_name: nil, shop_images: nil, shop_img1: nil, shop_img2: nil, shop_img3: nil, shop_img4: nil, prefectures: nil, address: nil, search_map: 3, howto_access: nil, tel: nil, business_hours: nil, holiday: nil, url: nil, handling_animals: nil, handling_feeds: nil, handling_goods: nil, feature: nil, map_info: nil, twitter: nil, facebook: nil, instagram: nil, created_at: "2020-09-20 15:13:20", updated_at: "2020-09-20 15:13:20">
+D, [2020-09-21T00:13:38.419387 #41092] DEBUG -- : [d] Registrations_Ctrl: ac: update_resourc params={"shop_name"=>"ああああ", "shop_img1"=>#<ActionDispatch::Http::UploadedFile:0x00007f907d67a970 @tempfile=#<Tempfile:/var/folders/wn/s_4_h0ln18ggwvw0lkgrzf1h0000gn/T/RackMultipart20200921-41092-dozn35.jpg>, @original_filename="46818.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[shop_img1]\"; filename=\"46818.jpg\"\r\nContent-Type: image/jpeg\r\n">, "shop_img2"=>#<ActionDispatch::Http::UploadedFile:0x00007f907d67a8f8 @tempfile=#<Tempfile:/var/folders/wn/s_4_h0ln18ggwvw0lkgrzf1h0000gn/T/RackMultipart20200921-41092-16jq7pa.jpg>, @original_filename="46815.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[shop_img2]\"; filename=\"46815.jpg\"\r\nContent-Type: image/jpeg\r\n">, "prefectures"=>"", "address"=>"", "search_map"=>"3", "howto_access"=>"", "tel"=>"", "business_hours"=>"", "holiday"=>"", "handling_animals"=>"", "handling_feeds"=>"", "handling_goods"=>"", "feature"=>"", "url"=>"", "twitter"=>"", "instagram"=>""}
+D, [2020-09-21T00:13:38.690904 #41092] DEBUG -- : [d] Image_uploader.rb  ac: store_dir
+D, [2020-09-21T00:13:38.691828 #41092] DEBUG -- : [d] Image_uploader.rb  ac: store_dir
+D, [2020-09-21T00:13:38.692370 #41092] DEBUG -- : [d] Image_uploader.rb  ac: store_dir
+D, [2020-09-21T00:13:38.693710 #41092] DEBUG -- : [d] Image_uploader.rb  ac: store_dir
+D, [2020-09-21T00:13:38.695285 #41092] DEBUG -- : [d] Registrations_Ctrl: ac: after_update_path_for
+D, [2020-09-21T00:13:38.710157 #41092] DEBUG -- : [d] Image_uploader.rb  ac: store_dir
+D, [2020-09-21T00:13:38.710633 #41092] DEBUG -- : [d] Registrations_Ctrl: ac: update ..map_info=
+D, [2020-09-21T00:13:38.792352 #41092] DEBUG -- : [d] Users_Ctrl: ac: set_user id=2
+D, [2020-09-21T00:13:38.793544 #41092] DEBUG -- : [d] Users_Ctrl: ac: show
+D, [2020-09-21T00:13:38.806662 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @created_at_desc.count=0
+D, [2020-09-21T00:13:38.808450 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @new_arrivals=[]
+D, [2020-09-21T00:13:38.808491 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @new_arrivals.count=0
+D, [2020-09-21T00:13:38.808525 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @show_option=user
+D, [2020-09-21T00:13:38.812215 #41092] DEBUG -- : [d] view: users/show id=2
+D, [2020-09-21T00:13:38.821833 #41092] DEBUG -- : [d] view: shop_info
+D, [2020-09-21T00:13:38.885562 #41092] DEBUG -- : [d] flash_messages flash[:notice]
+D, [2020-09-21T00:13:44.013590 #41092] DEBUG -- : [d] view: StaticPages#top
+D, [2020-09-21T00:13:46.024264 #41092] DEBUG -- : [d] Users_Ctrl: ac: set_user id=2
+D, [2020-09-21T00:13:46.026156 #41092] DEBUG -- : [d] Users_Ctrl: ac: show
+D, [2020-09-21T00:13:46.030250 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @created_at_desc.count=0
+D, [2020-09-21T00:13:46.033460 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @new_arrivals=[]
+D, [2020-09-21T00:13:46.033546 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @new_arrivals.count=0
+D, [2020-09-21T00:13:46.033604 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @show_option=user
+D, [2020-09-21T00:13:46.034637 #41092] DEBUG -- : [d] view: users/show id=2
+D, [2020-09-21T00:13:46.041715 #41092] DEBUG -- : [d] view: shop_info
+D, [2020-09-21T00:13:48.009915 #41092] DEBUG -- : [d] Users_Ctrl: ac: set_user id=2
+D, [2020-09-21T00:13:48.011300 #41092] DEBUG -- : [d] Users_Ctrl: ac: show
+D, [2020-09-21T00:13:48.014661 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @created_at_desc.count=0
+D, [2020-09-21T00:13:48.017652 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @new_arrivals=[]
+D, [2020-09-21T00:13:48.017825 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @new_arrivals.count=0
+D, [2020-09-21T00:13:48.018011 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @current_reptile_type=#<Reptile::ActiveRecord_Relation:0x00007f908a41ff88>
+D, [2020-09-21T00:13:48.019886 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @show_option=ヘビ
+D, [2020-09-21T00:13:48.020816 #41092] DEBUG -- : [d] view: users/show id=2
+D, [2020-09-21T00:13:48.043890 #41092] DEBUG -- : [d] flash_messages flash[:warning]
+D, [2020-09-21T00:13:49.165261 #41092] DEBUG -- : [d] Users_Ctrl: ac: set_user id=2
+D, [2020-09-21T00:13:49.166364 #41092] DEBUG -- : [d] Users_Ctrl: ac: show
+D, [2020-09-21T00:13:49.169571 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @created_at_desc.count=0
+D, [2020-09-21T00:13:49.172581 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @new_arrivals=[]
+D, [2020-09-21T00:13:49.172656 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @new_arrivals.count=0
+D, [2020-09-21T00:13:49.172814 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @current_reptile_type=#<Reptile::ActiveRecord_Relation:0x00007f908a565fc8>
+D, [2020-09-21T00:13:49.174627 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @show_option=ヘビ
+D, [2020-09-21T00:13:49.175688 #41092] DEBUG -- : [d] view: users/show id=2
+D, [2020-09-21T00:13:49.207439 #41092] DEBUG -- : [d] flash_messages flash[:warning]
+D, [2020-09-21T00:13:53.464076 #41092] DEBUG -- : [d] Users_Ctrl: ac: set_user id=2
+D, [2020-09-21T00:13:53.465722 #41092] DEBUG -- : [d] Users_Ctrl: ac: show
+D, [2020-09-21T00:13:53.469956 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @created_at_desc.count=0
+D, [2020-09-21T00:13:53.474111 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @new_arrivals=[]
+D, [2020-09-21T00:13:53.474282 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @new_arrivals.count=0
+D, [2020-09-21T00:13:53.474503 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @current_reptile_type=#<Reptile::ActiveRecord_Relation:0x00007f908a64dad0>
+D, [2020-09-21T00:13:53.476504 #41092] DEBUG -- : [d] Users_Ctrl: ac: show @show_option=ヘビ
+D, [2020-09-21T00:13:53.477317 #41092] DEBUG -- : [d] view: users/show id=2
+D, [2020-09-21T00:13:53.506432 #41092] DEBUG -- : [d] flash_messages flash[:warning]
+D, [2020-09-21T00:13:55.057552 #41092] DEBUG -- : [d] view: StaticPages#top
+D, [2020-09-21T00:13:58.431037 #41092] DEBUG -- : [d] StaticPages_Ctrl: ac: alljapan_page @created_at_desc.count=1
+D, [2020-09-21T00:13:58.453714 #41092] DEBUG -- : [d] StaticPages_Ctrl: ac: alljapan_page @new_arrivals=[#<Reptile id: 1, images: nil, reptile_img1: nil, reptile_img2: nil, reptile_img3: nil, type1: "ヘビ", type2: "ニシキヘビ", type_name: "ボールパイソン", morph: "", sex: "", age: "", size: "", weight: "", description: "", price: nil, sales_status: "", arrival_day: nil, user_id: 1, shop_name: "はちゅるいショップ", created_at: "2020-09-20 04:53:51", updated_at: "2020-09-20 04:53:51">]
+D, [2020-09-21T00:13:58.453823 #41092] DEBUG -- : [d] StaticPages_Ctrl: ac: alljapan_page @new_arrivals.count=1
+D, [2020-09-21T00:13:58.473185 #41092] DEBUG -- : [d] StaticPages_Ctrl: ac: alljapan_page @search_type1=#<ActiveRecord::Relation [#<Reptile id: 1, images: nil, reptile_img1: nil, reptile_img2: nil, reptile_img3: nil, type1: "ヘビ", type2: "ニシキヘビ", type_name: "ボールパイソン", morph: "", sex: "", age: "", size: "", weight: "", description: "", price: nil, sales_status: "", arrival_day: nil, user_id: 1, shop_name: "はちゅるいショップ", created_at: "2020-09-20 04:53:51", updated_at: "2020-09-20 04:53:51">]>
+D, [2020-09-21T00:13:58.476680 #41092] DEBUG -- : [d] view: static_pages/alljapan_page
+D, [2020-09-21T00:13:58.485083 #41092] DEBUG -- : [d] view: reptile_list
+D, [2020-09-21T00:13:58.487342 #41092] DEBUG -- : [d] view: reptile_list @reptile_type=#<ActiveRecord::Relation [#<Reptile id: 1, images: nil, reptile_img1: nil, reptile_img2: nil, reptile_img3: nil, type1: "ヘビ", type2: "ニシキヘビ", type_name: "ボールパイソン", morph: "", sex: "", age: "", size: "", weight: "", description: "", price: nil, sales_status: "", arrival_day: nil, user_id: 1, shop_name: "はちゅるいショップ", created_at: "2020-09-20 04:53:51", updated_at: "2020-09-20 04:53:51">]>
+D, [2020-09-21T00:13:58.489590 #41092] DEBUG -- : [d] view: reptile_list reptile=#<Reptile id: 1, images: nil, reptile_img1: nil, reptile_img2: nil, reptile_img3: nil, type1: "ヘビ", type2: "ニシキヘビ", type_name: "ボールパイソン", morph: "", sex: "", age: "", size: "", weight: "", description: "", price: nil, sales_status: "", arrival_day: nil, user_id: 1, shop_name: "はちゅるいショップ", created_at: "2020-09-20 04:53:51", updated_at: "2020-09-20 04:53:51">
+D, [2020-09-21T00:14:00.960324 #41092] DEBUG -- : [d] view: StaticPages#top
+D, [2020-09-21T00:14:09.631309 #41092] DEBUG -- : [d] view: StaticPages#top
