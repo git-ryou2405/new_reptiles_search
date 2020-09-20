@@ -59,6 +59,7 @@ gem 'hirb-unicode'                           # 日本語などマルチバイト
 
 group :development, :test do
   gem 'sqlite3'
+  # gem 'pg', '0.20.0'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
