@@ -131,6 +131,36 @@ $('.menu-ttl').click(function() {
   $('menu-list').slideToggle();
 });
 
+var open_position;
+function scroll_lock(){
+    var current_position = $(window).scrollTop();
+    var is_open = $('.menu_modal').hasClass('modal_active');
+    if(is_open && width < 768) {
+        open_position = $(window).scrollTop();
+        $('body, html').css({'width':'100%', 'position':'fixed', 'top': -(current_position)});
+    } else {
+        $('body, html').attr('style','');
+        $('body, html').scrollTop(open_position);
+    }
+}
+
+// ハンバーガー
+$(function (){
+  $('.menu_trigger').click(function(){
+      $('.nav_block').slideToggle(200);
+      $('.menu_modal').toggleClass('modal_active');
+      scroll_lock();
+  })
+});
+$(function() {
+  $('.menu_modal').click(function() {
+      $('.menu_modal').toggleClass('modal_active');
+      $('.nav_block').slideToggle(200);
+      scroll_lock();
+  })
+})
+
+
 // レスポンシブデバイスジャッジ
 // function deviceJudgment() {
 //   var ua = navigator.userAgent;

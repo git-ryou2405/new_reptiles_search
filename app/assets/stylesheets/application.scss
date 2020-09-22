@@ -122,7 +122,7 @@
 }
  .fv-ttl {
    font-size: 70px;
-   text-shadow: -1px -1px -1px #222, 1px 1px #333, 2px 2px #333;
+   text-shadow: 1px 1px #666, 2px 2px #333;
    color: lightcoral;
  }
  .fv-txt01 {
@@ -189,11 +189,9 @@
 }
 .cp_arrows {
   position: relative;
-  display: flex;
-  height: 200px;/*画面いっぱいにする場合100vh*/
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
+  height: 10vh;/*画面いっぱいにする場合100vh*/
+  left: 49%;
+  transform: translateX(-50%);
 }
 .cp_arrows .cp_arrow {
   position: absolute;

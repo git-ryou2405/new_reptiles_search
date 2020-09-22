@@ -99,7 +99,7 @@
   }
   .fv-ttl {
     font-size: 7rem;
-    text-shadow: -0.1rem -0.1rem -0.1rem #222, .1rem .1rem #666, .2rem .2rem #333;
+    text-shadow: .1rem .1rem #666, .2rem .2rem #333;
     color: lightcoral;
   }
   .fv-txt01 {
@@ -173,11 +173,9 @@
   }
   .cp_arrows {
     position: relative;
-    display: flex;
-    height: 20rem;/*画面いっぱいにする場合100vh*/
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
+    height: 10vh;/*画面いっぱいにする場合100vh*/
+    left: 49%;
+    transform: translateX(-50%);
   }
   .cp_arrows .cp_arrow {
     position: absolute;
@@ -371,8 +369,8 @@
       // 生体登録
       .regist-pd {
         .regist {
-          width: 90%;
-          margin: 3rem auto 0;
+          width: 20rem;
+          margin: 2rem auto 2rem 0;
           padding: 1rem 2rem;
           background: lightcoral;
           color: white;
@@ -393,7 +391,7 @@
         color: palevioletred;
         font-size: 4rem;
         text-align: center;
-        border-radius: 5%;
+        border-radius: 5rem;
         line-height: 1.4;
       }
       .menu-ttl:first-of-type { margin: 1rem 0 0;}
@@ -449,7 +447,7 @@
         color: skyblue;
         font-size: 4rem;
         text-align: center;
-        border-radius: 5%;}
+        border-radius: 5rem;}
       .sns-ttl:after { 
         border-color: skyblue;
       }
@@ -552,12 +550,14 @@
       // ショップ情報編集
       .user-list {
         display: flex;
-        width: 30rem;
-        margin:0 0 0 1.5rem;
+        margin: 2rem 0 0;
           .btn { 
+            width: 20rem;
+            padding: 1rem 0;
             color: #fff;
             background-color: #007bff;
             border-color: #007bff;
+            font-size: 2rem;
           }
           .btn:first-of-type { 
             margin: 0 1rem 0 0;
@@ -566,7 +566,7 @@
         
       // 商品ページ
       .search-content { 
-        margin: 2rem auto 0;
+        margin: 2rem auto 4rem;
         .search-item { 
         padding: 1rem 1rem 0;
         border-top: 3px solid #333;

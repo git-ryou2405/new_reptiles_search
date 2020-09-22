@@ -43,12 +43,12 @@
 
 <%# <h3>店舗情報</h3> %>
 <div class="shop-data-list">
-  <dl class="shop-data-item flex align-center">
+  <dl class="shop-data-item flex">
     <dt>所在地（住所）</dt>
     <dd><%= @user.address %></dd>
   </dl>
   <% if @user.howto_access.present? %>
-  <dl class="shop-data-item flex align-center">
+  <dl class="shop-data-item flex">
     <dt>アクセス方法</dt>
     <!-- googlemapへスクロール -->
     <dd class="anchor"><a href="#googlemap"><%= @user.howto_access %></a></span></dd>
